@@ -26,7 +26,7 @@
                     @endforeach
                 </div>
                 # Page 
-                {{-- {{ $notes->currentPage() }} of {{ $notes->lastPage() }} --}}
+                {{ $notes->currentPage() }} of {{ $notes->lastPage() }}
              
             </div>
 @endsection
